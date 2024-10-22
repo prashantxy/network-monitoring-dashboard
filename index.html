@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Network Simulator</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Network Packet Simulator Mini Project</h1>
+    
+    <div class="network">
+      <div class="computer" id="computer1">Computer 1</div>
+      <div class="computer" id="computer2">Computer 2</div>
+      <div class="router" id="router">Router</div>
+      <div class="computer" id="computer3">Computer 3</div>
+      <div class="computer" id="computer4">Computer 4</div>
+    </div>
+
+    <!-- Control Panel for sending packets -->
+    <div class="control-panel">
+      <label for="source">Source Computer:</label>
+      <select id="source">
+        <option value="computer1">Computer 1</option>
+        <option value="computer2">Computer 2</option>
+        <option value="computer3">Computer 3</option>
+        <option value="computer4">Computer 4</option>
+      </select>
+
+      <label for="destination">Destination Computer:</label>
+      <select id="destination">
+        <option value="computer1">Computer 1</option>
+        <option value="computer2">Computer 2</option>
+        <option value="computer3">Computer 3</option>
+        <option value="computer4">Computer 4</option>
+      </select>
+
+      <button id="sendPacket">Send Packet</button>
+    </div>
+
+    <!-- Status Message -->
+    <div id="status"></div>
+
+    <!-- Student Information (Animated) -->
+    <div class="student-info" id="studentInfo">
+      <h2>Student Information</h2>
+      <p>Name: Prashant Dubey</p>
+      <P>UID :- 22BET10331</P>
+      <p>Email: pdubey1924@gmail.com</p>
+      <p>University: Chandigarh University</p>
+      <p>Field of Study: Computer Science & Engineering</p>
+    </div>
+
+    <script src="js/index.js"></script>
+  </div>
+</body>
+</html>
